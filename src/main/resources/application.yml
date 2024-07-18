@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: assistant-cuisine
+
+  data:
+    mongodb:
+      uri: mongodb+srv://jamalaymane529:A4TrhbNTknjOWz6D@cluster0.ylka3cw.mongodb.net/assistant-cuisine?retryWrites=true&w=majority
+      database : assistant-cuisine
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 8080
